@@ -8,7 +8,7 @@
 */ 
 
 function addition() {
-	alert(parseInt(document.getElementById("additionInput1").value, 10) + parseInt(document.getElementById("additionInput2").value, 10));
+	alert(parseFloat(document.getElementById("additionInput1").value, 10) + parseFloat(document.getElementById("additionInput2").value, 10));
 }
 
 /* --------------------------------------------------------- */
