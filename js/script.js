@@ -35,7 +35,8 @@ function vowelCounter() {
 		vowels = vowels.length;
 	}
 
-	document.getElementById("vowelInput").value = vowels == 1 ? "That sentence has 1 vowel in it." : "That sentence has " + vowels + " vowels in it.";
+	document.getElementById("vowelInput").value = 
+		vowels == 1 ? "That sentence has 1 vowel in it." : "That sentence has " + vowels + " vowels in it.";
 }
 
 /* --------------------------------------------------------- */
